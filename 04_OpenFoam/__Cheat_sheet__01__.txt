@@ -1,0 +1,16 @@
+cd $FOAM_RUN/ | explorer.exe . | elbow | forwardStep | cavity ||||||| ls | #tree | #pwd | cd 0 | nano U | paraFoam --block | #gedit Allrun | #restore0Dir() | openfoam2412 | icofoam
+
+cd system | nano blockMeshDict | cd 0 | nano p | nano U | cd polyMesh | nano faces ||| foamToVTK
+
+\\wsl.localhost\Ubuntu\mnt\wslg\distro\usr\lib\openfoam\openfoam2412
+\\wsl.localhost\Ubuntu\mnt\wslg\distro\usr\lib\openfoam\openfoam2412\applications\solvers\incompressible\icoFoam    * * *   how to change version 2.3.0
+\\wsl.localhost\Ubuntu\mnt\wslg\distro\usr\lib\openfoam\openfoam2412\bin\tools\RunFunctions		     	    * * *   localhost Ubuntu openfoam how to switch versions 
+
+https://users.metu.edu.tr/csert/foamyLectures/lecture03.html	
+https://www.youtube.com/watch?v=KznljrgWSvo     		https://github.com/openfoam/openfoam-2.3.x
+
+
+Iii _________________ https://www.youtube.com/watch?v=A5sBpnUOQgA ___________   # fluentMeshToFoam elbow.msh
+Iiii ________________ https://www.youtube.com/watch?v=gQ6N9MNNgjw ___________   # RunFunctions
+II __________________ https://www.openfoam.com/documentation/tutorial-guide/3-compressible-flow/3.2-supersonic-flow-over-a-forward-facing-step   ______ # forwardStep
+#justworks___________ file:///E:/15_REPOS/a___________________/10_CFD__Off/202_Open_Foam/CFD-Notebooks_NHERI-SimCenter/docs/lectures/beginner/lecture03.html
