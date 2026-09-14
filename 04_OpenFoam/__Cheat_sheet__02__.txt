@@ -13,9 +13,8 @@ https://www.youtube.com/watch?v=lrGO9QSBq1g	      ||04|| gridConversion || shock
 https://www.youtube.com/watch?v=pES0ybqs0cQ	      ||04b| postProcess -func magU | postProcess -func sample
 https://www.youtube.com/watch?v=PaDDplpAJJ0           ||05a| transport || solver || NEW discretization fvSchemes || blockMesh | setFields | nano foam.foam | paraview foam.foam &
 https://www.youtube.com/watch?v=WyaSte21g9I           ||05b| (run) scalarTransportFoam | 
-https://www.youtube.com/watch?v=YTcMTuxNhoE           ||05c| Discretization || _upwind || _linear || _linearUpwind || _quick || _cubic || (run) scalarTransportFoam ||
-
-https://www.youtube.com/watch?v=jfDzFPaPPug           ||06|| 	
+https://www.youtube.com/watch?v=YTcMTuxNhoE           ||05c| Discretization || _upwind || _linear || _linearUpwind || _quick || _cubic || (run) scalarTransportFoam ||05d| Part II
+https://www.youtube.com/watch?v=jfDzFPaPPug           ||06|| my own	
 
 
 
