@@ -8,6 +8,9 @@ ________________________________________________________________________________
 https://users.metu.edu.tr/csert/foamyLectures/lecture03.html
 ____________________________________________________________________________________ 
 https://www.fluiddynamics.at/downloads/openfoam-basic-training		Eng		Tutorials	
+01_elbow	|02a_forwardStep	|03_shockTube	|04_a_pitzDaily	|05_Transport_basecase_T1	|05_Discretization_T2	|06_2D_Transport	|
+07	|07	|07	|07	|
+____________________________________________________________________________________ 
 https://www.cfd.at/							TU Wien, 	Vienna, Austria
 https://www.openfoam.com/documentation/tutorial-guide			ESI Group	prived
 ____________________________________________________________________________________ 
@@ -18,3 +21,5 @@ https://www.youtube.com/watch?v=w0bBOWlVlvA					no	Ubunto
 https://www.tfd.chalmers.se/~hani/kurser/OS_CFD/UsefulLiteratureAndLinks.htm	no
 https://wiki.openfoam.com/index.php?title=Tutorials				no
 https://www.youtube.com/watch?v=Bw0xRrtHKD0					Y	paraview & paraviewLinux &
+
+

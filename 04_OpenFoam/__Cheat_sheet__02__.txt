@@ -1,11 +1,7 @@
-cd $FOAM_RUN/ | explorer.exe . | elbow | forwardStep | cavity ||||||| ls | #tree | #pwd | cd 0 | nano U | #gedit Allrun | #restore0Dir() | openfoam2412 | icofoam (toRun)
-paraFoam --block | *.allfiles system control files	      ||Key|| foamToVTK ||| fluentMeshToFoam elbow_quad.msh ||| refineMesh -overwrite -overwrite
-cp controlDict controlDict.foam | sonicFoam (toRun)
+cd $FOAM_RUN/ | explorer.exe . | ls | #tree | pwd | cd | nano | gedit | icofoam (toRun)
+paraFoam --block | foamToVTK   | fluentMeshToFoam elbow_quad.msh      | refineMesh -overwrite -overwrite
+cp controlDict controlDict.foam | sonicFoam (toRun)	      	      |find . -name "*Zone.Identifier*" -type f -delete  | find . -name "*Copy.Identifier*" -type f -delete | 
 
-\\wsl.localhost\Ubuntu\mnt\wslg\distro\usr\lib\openfoam\openfoam2412\applications\solvers\incompressible\icoFoam || solver
-\\wsl.localhost\Ubuntu\mnt\wslg\distro\usr\lib\openfoam\openfoam2412\bin\tools\RunFunctions
-\\wsl.localhost\Ubuntu\mnt\wslg\distro\usr\lib\openfoam\openfoam2412\src\finiteVolume
-E:\15_REPOS\a___________________\10_CFD__Off\202_Open_Foam\OpenFOAMTeaching\JozsefNagy\livestreams\First-tutorial\S1	József Nagy 	|| elbow || elbow_quad ||
 
 https://www.youtube.com/watch?v=KznljrgWS             ||01||  https://www.youtube.com/watch?v=bJTSKaxG58Y (20:00 Diagrams) || elbow || 	https://github.com/openfoam/openfoam-2.3.x
 https://www.youtube.com/watch?v=Ds0eK1wXMks&t=188s    ||02|| forwardStep | blockMesh | paraFoam --block | nano forwardStep.foam | paraview forwardStep.foam &
@@ -16,13 +12,17 @@ https://www.youtube.com/watch?v=PaDDplpAJJ0           ||05a| transport || solver
 https://www.youtube.com/watch?v=WyaSte21g9I           ||05b| (run) scalarTransportFoam | 
 https://www.youtube.com/watch?v=YTcMTuxNhoE           ||05c| Discretization || _upwind || _linear || _linearUpwind || _quick || _cubic || (run) scalarTransportFoam ||05d| Part II
 https://www.youtube.com/watch?v=jfDzFPaPPug           ||06|| my own || https://www.youtube.com/watch?v=tdzvQM6XkvU || 	
-
-https://www.youtube.com/watch?v=IPExwi2Ar-g
-
+https://www.youtube.com/watch?v=IPExwi2Ar-g	      || turbulence ||
 
 
-find . -name "*Zone.Identifier*" -type f -delete	find . -name "*Copy.Identifier*" -type f -delete
-_______________________________________________________ _______________________________________________________ _______________________________________________________ not yet
+\\wsl.localhost\Ubuntu\mnt\wslg\distro\usr\lib\openfoam\openfoam2412\applications\solvers\incompressible\icoFoam || solver
+\\wsl.localhost\Ubuntu\mnt\wslg\distro\usr\lib\openfoam\openfoam2412\bin\tools\RunFunctions
+\\wsl.localhost\Ubuntu\mnt\wslg\distro\usr\lib\openfoam\openfoam2412\src\finiteVolume
+E:\15_REPOS\a___________________\10_CFD__Off\202_Open_Foam\OpenFOAMTeaching\JozsefNagy\livestreams\First-tutorial\S1	József Nagy 	|| elbow || elbow_quad ||
+
+
+_______________________________________________________ 
+_______________________________________________________ not yet
 99_HighNitrogenSteel-Fe-Cr-C-N_Case | blockMesh | 	01_Numerical modeling of nitrogen transport and loss during laser powder bed fusion of high nitrogen steels
 
 _____________________ https://users.metu.edu.tr/csert/foamyLectures/lecture03.html	# Lectures
