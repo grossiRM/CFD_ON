@@ -1,0 +1,71 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:                                        |
+|   \\  /    A nd           | Web:      www.openfoam.com; www.openfoam.org    |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    object      epsilon;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+//mixingLength1 1;//JN: inlet1 diameter
+//mixingLength2 1;//JN: inlet2 diameter
+//mixingLength3 1;//JN: inlet3 diameter
+//mixingLength4 1;//JN: inlet4 diameter
+//mixingLength5 1;//JN: inlet5 diameter
+
+dimensions      [0 2 -3 0 0 0 0];
+
+internalField   uniform 0.1;
+
+boundaryField
+{
+/*    inlet1
+    {
+        type            turbulentMixingLengthDissipationRateInlet;;
+ 		mixingLength    $mixingLength1;
+        value           uniform 0.1;
+    }
+	inlet2
+    {
+        type            turbulentMixingLengthDissipationRateInlet;;
+ 		mixingLength    $mixingLength2;
+        value           uniform 0.1;
+    }
+	inlet3
+    {
+        type            turbulentMixingLengthDissipationRateInlet;;
+ 		mixingLength    $mixingLength3;
+        value           uniform 0.1;
+    }
+	inlet4
+    {
+        type            turbulentMixingLengthDissipationRateInlet;;
+ 		mixingLength    $mixingLength4;
+        value           uniform 0.1;
+    }
+	inlet5
+    {
+        type            turbulentMixingLengthDissipationRateInlet;;
+ 		mixingLength    $mixingLength5;
+        value           uniform 0.1;
+    }*/
+    "(outlet.*)"
+    {
+        type            zeroGradient;
+    }
+    "(wall.*)"
+    {
+        type            epsilonWallFunction;
+        value           uniform 0.1;
+    }
+}
+
+
+// ************************************************************************* //

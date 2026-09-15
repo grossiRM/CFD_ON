@@ -4,26 +4,27 @@ cp controlDict controlDict.foam | sonicFoam (toRun)
 
 \\wsl.localhost\Ubuntu\mnt\wslg\distro\usr\lib\openfoam\openfoam2412\applications\solvers\incompressible\icoFoam || solver
 \\wsl.localhost\Ubuntu\mnt\wslg\distro\usr\lib\openfoam\openfoam2412\bin\tools\RunFunctions
-	
-https://www.youtube.com/watch?v=KznljrgWS             ||01||  https://www.youtube.com/watch?v=bJTSKaxG58Y (20:00 Diagrams) József Nagy 	https://github.com/openfoam/openfoam-2.3.x
-E:\15_REPOS\a___________________\10_CFD__Off\202_Open_Foam\OpenFOAMTeaching\JozsefNagy\livestreams\First-tutorial\S1	József Nagy 	elbow | elbow_quad
+\\wsl.localhost\Ubuntu\mnt\wslg\distro\usr\lib\openfoam\openfoam2412\src\finiteVolume
+E:\15_REPOS\a___________________\10_CFD__Off\202_Open_Foam\OpenFOAMTeaching\JozsefNagy\livestreams\First-tutorial\S1	József Nagy 	|| elbow || elbow_quad ||
+
+https://www.youtube.com/watch?v=KznljrgWS             ||01||  https://www.youtube.com/watch?v=bJTSKaxG58Y (20:00 Diagrams) || elbow || 	https://github.com/openfoam/openfoam-2.3.x
 https://www.youtube.com/watch?v=Ds0eK1wXMks&t=188s    ||02|| forwardStep | blockMesh | paraFoam --block | nano forwardStep.foam | paraview forwardStep.foam &
 rm -r 0.5  1.5  2  3  4  5  6  7  8  9 ...	      ||03|| OpenFOAM-2.3.x PDF pag 143 || edgeGrading (1 1 1 1 2 2 2 2 1 1 1 1)  ... simpleSpline pag. 145
 https://www.youtube.com/watch?v=lrGO9QSBq1g	      ||04|| gridConversion || shockTube | blockMesh | setFields | nano foam.foam | paraview foam.foam & | sonicFoam ||Courant number|| 	
 https://www.youtube.com/watch?v=pES0ybqs0cQ	      ||04b| postProcess -func magU | postProcess -func sample
-https://www.youtube.com/watch?v=PaDDplpAJJ0           ||05a| transport || solver || NEW discretization fvSchemes || blockMesh | setFields | nano foam.foam | paraview foam.foam &
+https://www.youtube.com/watch?v=PaDDplpAJJ0           ||05a| transport || solver || NEW discretization fvSchemes || blockMesh | setFields | nano foam.foam (Cntl+o Cntl+x) | paraview foam.foam &
 https://www.youtube.com/watch?v=WyaSte21g9I           ||05b| (run) scalarTransportFoam | 
 https://www.youtube.com/watch?v=YTcMTuxNhoE           ||05c| Discretization || _upwind || _linear || _linearUpwind || _quick || _cubic || (run) scalarTransportFoam ||05d| Part II
-https://www.youtube.com/watch?v=jfDzFPaPPug           ||06|| my own	
+https://www.youtube.com/watch?v=jfDzFPaPPug           ||06|| my own || https://www.youtube.com/watch?v=tdzvQM6XkvU || 	
+
+https://www.youtube.com/watch?v=IPExwi2Ar-g
 
 
 
-
-
+find . -name "*Zone.Identifier*" -type f -delete	find . -name "*Copy.Identifier*" -type f -delete
 _______________________________________________________ _______________________________________________________ _______________________________________________________ not yet
 99_HighNitrogenSteel-Fe-Cr-C-N_Case | blockMesh | 	01_Numerical modeling of nitrogen transport and loss during laser powder bed fusion of high nitrogen steels
 
-find . -name "*Zone.Identifier*" -type f -delete	find . -name "*Copy.Identifier*" -type f -delete
 _____________________ https://users.metu.edu.tr/csert/foamyLectures/lecture03.html	# Lectures
 _____________________ https://www.youtube.com/watch?v=A5sBpnUOQgA ___________   	# fluentMeshToFoam elbow.msh
 _____________________ https://www.youtube.com/watch?v=gQ6N9MNNgjw ___________   	# RunFunctions
